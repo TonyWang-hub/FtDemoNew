@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WordViewController : UIViewController
 
-
+-(instancetype)initWithData:(NSString *)title des:(NSArray *)des;
 @end
 

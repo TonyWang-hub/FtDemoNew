@@ -9,23 +9,47 @@
 /* Begin PBXBuildFile section */
 		DCA964A11DC4DC4400236FAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964A01DC4DC4400236FAE /* main.m */; };
 		DCA964A41DC4DC4400236FAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964A31DC4DC4400236FAE /* AppDelegate.m */; };
-		DCA964A71DC4DC4400236FAE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964A61DC4DC4400236FAE /* ViewController.m */; };
+		DCA964A71DC4DC4400236FAE /* WordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964A61DC4DC4400236FAE /* WordViewController.m */; };
 		DCA964AA1DC4DC4400236FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA964A81DC4DC4400236FAE /* Main.storyboard */; };
 		DCA964AC1DC4DC4400236FAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA964AB1DC4DC4400236FAE /* Assets.xcassets */; };
 		DCA964AF1DC4DC4400236FAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA964AD1DC4DC4400236FAE /* LaunchScreen.storyboard */; };
+		DCA964DC1DC500DB00236FAE /* FTUIAnimaiton.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964DB1DC500DB00236FAE /* FTUIAnimaiton.m */; };
+		DCA964DE1DC502DC00236FAE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA964DD1DC502DC00236FAE /* AVFoundation.framework */; };
+		DCA964E11DC50CB300236FAE /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964E01DC50CB300236FAE /* HomePageViewController.m */; };
+		DCA964E41DC5187000236FAE /* NewPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964E31DC5187000236FAE /* NewPagedFlowView.m */; };
+		DCA964E71DC519BA00236FAE /* PGIndexBannerSubiew.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964E61DC519BA00236FAE /* PGIndexBannerSubiew.m */; };
+		DCA964EA1DC5275D00236FAE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964E91DC5275D00236FAE /* RootViewController.m */; };
+		DCA964ED1DC53FC700236FAE /* LoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA964EC1DC53FC700236FAE /* LoadingViewController.m */; };
+		ECDB8CDD7FBE8608B7644BA8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AD49EA93D604B21FF2F2EB27 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82A17CDBE7BD46F96DE78DFE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AD49EA93D604B21FF2F2EB27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA9649C1DC4DC4400236FAE /* FTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA964A01DC4DC4400236FAE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCA964A21DC4DC4400236FAE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCA964A31DC4DC4400236FAE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCA964A51DC4DC4400236FAE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCA964A61DC4DC4400236FAE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCA964A51DC4DC4400236FAE /* WordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
+		DCA964A61DC4DC4400236FAE /* WordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
 		DCA964A91DC4DC4400236FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCA964AB1DC4DC4400236FAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA964AE1DC4DC4400236FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA964B01DC4DC4400236FAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA964DA1DC500DB00236FAE /* FTUIAnimaiton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTUIAnimaiton.h; sourceTree = "<group>"; };
+		DCA964DB1DC500DB00236FAE /* FTUIAnimaiton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTUIAnimaiton.m; sourceTree = "<group>"; };
+		DCA964DD1DC502DC00236FAE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DCA964DF1DC50CB300236FAE /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		DCA964E01DC50CB300236FAE /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		DCA964E21DC5187000236FAE /* NewPagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPagedFlowView.h; sourceTree = "<group>"; };
+		DCA964E31DC5187000236FAE /* NewPagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPagedFlowView.m; sourceTree = "<group>"; };
+		DCA964E51DC519BA00236FAE /* PGIndexBannerSubiew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGIndexBannerSubiew.h; sourceTree = "<group>"; };
+		DCA964E61DC519BA00236FAE /* PGIndexBannerSubiew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGIndexBannerSubiew.m; sourceTree = "<group>"; };
+		DCA964E81DC5275D00236FAE /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DCA964E91DC5275D00236FAE /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DCA964EB1DC53FC700236FAE /* LoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingViewController.h; sourceTree = "<group>"; };
+		DCA964EC1DC53FC700236FAE /* LoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingViewController.m; sourceTree = "<group>"; };
+		F85FDA6CA03148524ED4577E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCA964DE1DC502DC00236FAE /* AVFoundation.framework in Frameworks */,
+				ECDB8CDD7FBE8608B7644BA8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34A8582D91D9A6A282D22097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCA964DD1DC502DC00236FAE /* AVFoundation.framework */,
+				AD49EA93D604B21FF2F2EB27 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DCA964931DC4DC4400236FAE = {
 			isa = PBXGroup;
 			children = (
 				DCA9649E1DC4DC4400236FAE /* FTDemo */,
 				DCA9649D1DC4DC4400236FAE /* Products */,
+				F240A4C5E52C4A22E537516E /* Pods */,
+				34A8582D91D9A6A282D22097 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +97,20 @@
 			children = (
 				DCA964A21DC4DC4400236FAE /* AppDelegate.h */,
 				DCA964A31DC4DC4400236FAE /* AppDelegate.m */,
-				DCA964A51DC4DC4400236FAE /* ViewController.h */,
-				DCA964A61DC4DC4400236FAE /* ViewController.m */,
+				DCA964E81DC5275D00236FAE /* RootViewController.h */,
+				DCA964E91DC5275D00236FAE /* RootViewController.m */,
+				DCA964A51DC4DC4400236FAE /* WordViewController.h */,
+				DCA964A61DC4DC4400236FAE /* WordViewController.m */,
+				DCA964EB1DC53FC700236FAE /* LoadingViewController.h */,
+				DCA964EC1DC53FC700236FAE /* LoadingViewController.m */,
+				DCA964DF1DC50CB300236FAE /* HomePageViewController.h */,
+				DCA964E01DC50CB300236FAE /* HomePageViewController.m */,
+				DCA964E21DC5187000236FAE /* NewPagedFlowView.h */,
+				DCA964E31DC5187000236FAE /* NewPagedFlowView.m */,
+				DCA964E51DC519BA00236FAE /* PGIndexBannerSubiew.h */,
+				DCA964E61DC519BA00236FAE /* PGIndexBannerSubiew.m */,
+				DCA964DA1DC500DB00236FAE /* FTUIAnimaiton.h */,
+				DCA964DB1DC500DB00236FAE /* FTUIAnimaiton.m */,
 				DCA964A81DC4DC4400236FAE /* Main.storyboard */,
 				DCA964AB1DC4DC4400236FAE /* Assets.xcassets */,
 				DCA964AD1DC4DC4400236FAE /* LaunchScreen.storyboard */,
@@ -79,6 +128,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F240A4C5E52C4A22E537516E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F85FDA6CA03148524ED4577E /* Pods.debug.xcconfig */,
+				82A17CDBE7BD46F96DE78DFE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCA964B31DC4DC4400236FAE /* Build configuration list for PBXNativeTarget "FTDemo" */;
 			buildPhases = (
+				3011AD30F9897607E8B337AF /* Check Pods Manifest.lock */,
 				DCA964981DC4DC4400236FAE /* Sources */,
 				DCA964991DC4DC4400236FAE /* Frameworks */,
 				DCA9649A1DC4DC4400236FAE /* Resources */,
+				EB307FC0D62BA65DB0CD4527 /* Embed Pods Frameworks */,
+				76BA61FB40570325E11E98B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,13 +207,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3011AD30F9897607E8B337AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76BA61FB40570325E11E98B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB307FC0D62BA65DB0CD4527 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DCA964981DC4DC4400236FAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCA964A71DC4DC4400236FAE /* ViewController.m in Sources */,
+				DCA964A71DC4DC4400236FAE /* WordViewController.m in Sources */,
+				DCA964ED1DC53FC700236FAE /* LoadingViewController.m in Sources */,
+				DCA964E41DC5187000236FAE /* NewPagedFlowView.m in Sources */,
+				DCA964EA1DC5275D00236FAE /* RootViewController.m in Sources */,
 				DCA964A41DC4DC4400236FAE /* AppDelegate.m in Sources */,
+				DCA964E11DC50CB300236FAE /* HomePageViewController.m in Sources */,
+				DCA964DC1DC500DB00236FAE /* FTUIAnimaiton.m in Sources */,
+				DCA964E71DC519BA00236FAE /* PGIndexBannerSubiew.m in Sources */,
 				DCA964A11DC4DC4400236FAE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +386,7 @@
 		};
 		DCA964B41DC4DC4400236FAE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F85FDA6CA03148524ED4577E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YJ3VLM233V;
@@ -283,6 +399,7 @@
 		};
 		DCA964B51DC4DC4400236FAE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82A17CDBE7BD46F96DE78DFE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YJ3VLM233V;
@@ -312,6 +429,7 @@
 				DCA964B51DC4DC4400236FAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
